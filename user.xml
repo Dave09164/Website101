@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<user>
+	<info>
+		<Fname>Sandi</Fname>
+		<Sname>Monger</Sname>
+		<mail>email@email.com</mail>
+		<dob>31/07/1994</dob>
+	</info>
+	<info>
+		<Fname>Dave</Fname>
+		<Sname>Clarke</Sname>
+		<mail>email@email.com</mail>
+		<dob>31/07/1994</dob>
+	</info>
+	<info>
+		<Fname>Izzie</Fname>
+		<Sname>Dymock</Sname>
+		<mail>email@email.com</mail>
+		<dob>31/07/1994</dob>
+	</info>
+	<info>
+		<Fname>Beyonce</Fname>
+		<Sname>Knowles</Sname>
+		<mail>email@email.com</mail>
+		<dob>31/07/1994</dob>
+	</info>
+</user>

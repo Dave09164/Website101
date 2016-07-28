@@ -1,0 +1,152 @@
+html{
+	margin: 0 50px;
+}
+body{
+	background-color: grey;
+}
+.ad_vis{
+	z-index: 1;
+}
+#ad_sec{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	display: none;
+	background-color: black;
+	opacity: 0.75;
+}
+#ad_body{
+	position: fixed;
+	left: 25%;
+	top: 25%;
+	min-width: 50%;
+	min-height: 50%;
+	display: none;
+	background-color: black;
+	color: red;
+	font-size: 300%;
+	text-align: center;
+	background-image: url("images/adBackground.png");
+}
+#top_nav{
+	background-color: black;
+	width: 100%;
+}
+#header{
+	color: white;
+    font-size: 75%;
+	min-width: 20%;
+}
+#nav{
+	width: 30%;
+    padding-left: 2%;
+}
+#reg{
+    padding: 0;
+	width: 10%;
+    height: inherit;
+}
+#regText{
+	float: right;
+    font-size: 75%;
+}
+.navText{
+	background-color: white;
+	font-size: 100%;
+	min-width: 15%;
+	margin: 0.5% 1%;
+	padding: 1% 0;
+	text-align: center;
+}
+#header, #top_nav img, #nav, #reg, .navText, #header_imgs{
+	display: inline-block;
+	vertical-align: middle;
+}
+#header_imgs{
+	min-width: 20%;
+	float: right;
+}
+#header_imgs img{
+    float: right;
+    vertical-align: middle;
+	margin: 5% 0 0 1%;
+}
+#container{
+	clear: both;
+	min-height:500px;
+	min-width: 100%;
+	margin-top: 5px;
+	background-color: grey;
+}
+#main_body{
+	min-width: 69%;
+	background-color: white;
+	border-top: solid;
+	border-bottom: solid;
+}
+#main_body, #left, #right{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	min-height: inherit;
+}
+#left, #right{
+	background-color: black;
+	min-width: 15%;
+	
+}
+#left{
+	padding: 0 0.5% 0 0;
+}
+#right{
+	padding: 0 0 0 0.5%;
+}
+#details_form{
+	border: solid;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.form_elem{
+	width: 90%;
+	height: 40px;
+	font-size: 18pt;
+	margin-left: 5%;
+}
+.form_elem:focus{
+	background-color: grey;
+	border: grey;
+	color: white;
+}
+.form_text{
+	margin-left: 5%;
+}
+#sub_button{
+	width: 90.5%;
+	margin-left: 5%;
+	height: 40px;
+	background-color: grey;
+	border-color: black;
+	color: Black;
+	font-size: 18pt;
+}
+#sub_button:disabled {
+	background-color: white;
+	color: grey;
+}
+#detail_table{
+	background-color: green;
+	color: white;
+	margin: 10px auto 0 auto;
+	width: 90%;
+	height: 100px;
+	text-align: center;
+}
+#users, #top_row{
+	border-collapse: collapse;
+	border: solid;
+	background-color: grey;
+	min-width: 100%;
+}
